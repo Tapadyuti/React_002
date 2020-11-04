@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {HelloJSX} from './HelloJSX';
 
 class ClassComponent extends Component{
     render(){
