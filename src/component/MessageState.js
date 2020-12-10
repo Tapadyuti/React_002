@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 
 class MessageState extends Component {
-
     constructor(){
         super();
         this.state = {
-            message: "Welcome visitor" 
-
+            message: "Welcome visitor"
         }
-
     }
     changeMessage(){
         this.setState({

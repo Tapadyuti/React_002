@@ -37,9 +37,6 @@ class App extends Component {
         <MessageState></MessageState><hr></hr>
         <Counter></Counter>
         <Counter addValue="2" ></Counter>
-        
-        
-
       </div>
     );
   }
