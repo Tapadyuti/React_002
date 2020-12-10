@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-amplify": "^2.2.0",
+    "aws-amplify-react": "^3.1.1",
+    "bootstrap": "^4.4.1",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -13,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "run-scripts build",
+    "build": "npm run-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
