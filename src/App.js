@@ -7,9 +7,12 @@ import HelloJSX from './component/HelloJSX';
 import Welcome from './component/Welcome';
 import MessageState from './component/MessageState';
 import Counter from './component/Counter';
+import FunctionClick from './component/FunctionClick';
+import ClassClick from './component/ClassClick';
 import { Component } from 'react';
-
-
+import EventBind from './component/EventBind';
+import './/../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 class App extends Component {
   render(){
@@ -37,6 +40,12 @@ class App extends Component {
         <MessageState></MessageState><hr></hr>
         <Counter></Counter>
         <Counter addValue="2" ></Counter>
+        <hr></hr>
+        <FunctionClick/>
+        <hr></hr>
+        <ClassClick/>
+        <hr></hr>
+        <EventBind></EventBind>
       </div>
     );
   }
