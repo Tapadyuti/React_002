@@ -1,5 +1,21 @@
 .App {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+}
+.App-col {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid burlywood;
+  flex-wrap: wrap;
+}
+.App-row {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  margin: 1px;
+  border: 2px solid burlywood;
 }
 
 .App-logo {
